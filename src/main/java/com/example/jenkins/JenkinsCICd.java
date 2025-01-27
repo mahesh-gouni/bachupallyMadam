@@ -8,6 +8,8 @@ public class JenkinsCICd {
     @GetMapping(value = "/dockerDemo")
     public String helloWorld(){
         System.out.println("hello");
+
+
         return " CI demo";
     }
 }
